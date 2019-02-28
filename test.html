@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+
+    <script>
+        new Promise((resolve, reject)=>{
+            // return '1';
+            resolve('1');
+        }).then((res)=>{
+            //  throw new Error('1');
+            reject(res.a);
+        }).then((res)=>{
+            console.log(res);
+        }).catch((e)=>{
+            console.log(e);
+        });
+    </script>
+</head>
+<body>
+    
+</body>
+
+</html>
