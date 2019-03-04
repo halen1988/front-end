@@ -22,4 +22,4 @@ let doubled = arr.map(num => {
 ```
 
 
-![操作数据方法对比]](./images/map.jpeg)
+[操作数据方法对比](./images/map.jpeg)
